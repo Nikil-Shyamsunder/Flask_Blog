@@ -2,4 +2,6 @@
 Flask Blog Demo
 
 ## Install Flask:
-pip install flask
+```shell 
+$ pip install flask 
+```
