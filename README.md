@@ -15,3 +15,7 @@ def hello_world:
 
 export FLASK_APP "flaskblog.py"
 $ flask run
+
+## debug mode
+exort FLASK_DEBUG = 1
+
