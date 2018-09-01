@@ -5,3 +5,13 @@ Flask Blog Demo
 ```shell 
 $ pip install flask 
 ```
+Basic Code:
+from flask import Flask 
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world:
+  return "hello world"
+
+export FLASK_APP "flaskblog.py"
+$ flask run
